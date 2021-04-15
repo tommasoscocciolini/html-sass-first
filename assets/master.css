@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+  height: 50px;
+  text-align: center;
+}
+
+div.container {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: yellow;
+}
+
+p {
+  background-color: red;
+  height: 50px;
+}
+
+button {
+  padding: 50px;
+  color: red;
+}

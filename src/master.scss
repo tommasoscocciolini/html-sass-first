@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$myprimary : red;
+$myaltColor : yellow;
+$standard : 50px;
+$alignment : center;
+$autoMargin : 0 auto;
+
+h1{
+  color: $myprimary;
+  height: $standard;
+  text-align: $alignment;
+}
+
+div.container{
+  display: flex;
+  width: 50%;
+  margin: $autoMargin;
+  justify-content: $alignment;
+  background-color: $myaltColor;
+}
+
+p {
+  background-color: $myprimary;
+  height: $standard;
+}
+
+button {
+  padding: $standard;
+  color: $myprimary;
+}
